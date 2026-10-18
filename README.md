@@ -1,5 +1,3 @@
-# Personality Quiz
+# Campus-Life-Super-App
 
 
-#### Attributions
-Favicon created by [Freepik - Flaticon](https://www.flaticon.com/free-icons/quiz)
