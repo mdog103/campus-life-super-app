@@ -1,6 +1,9 @@
-.selected {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
+body{background-color: aquamarine;}
+
+img {
+  width: 50%;
+  margin: auto;
+ 
 }
-  
+
+body{text-align: center;}
