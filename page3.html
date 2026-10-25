@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,38 +10,31 @@
 <body>
     <h1 class="text-center mt-4">Campus maps </h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <p><a href="index.html">Read more to learn about campus events in college on Page 1 </a>.</p> 
+  <a href="index.html">Campus events</a> 
   
   
 
-   <p><a href="page2.html">Read more to learn about campus dining in college on Page 2 </a>.</p> 
+   <a href="page2.html">Campus Dining </a> 
  
 
     
-   <p><a href="page3.html">Read more to learn about campus locations in college on Page 3 </a>.</p> 
-  
+   <a href="page3.html">Campus Maps </a>
   </nav>
     <h2> Search Campus Locations</h2>
-    <input type="text" id="searchinput" placeholder="search for a location">
         <button class=" btn btn-primary" id="searchbutton"> Click here to find reinhardt locations </button>
         <p id="searchresult"></p>
         <h2> Campus Map </h2>
+        <p id="weatherresult"> </p>
       <img   src="img/Campus-Map.png" alt="campus map that shows locations of buildings on campus"/>
      <h2> Location Details</h2>
      <h3> Brown Athletic center</h3>
      <p> A gym where students can go to excercise and where basketball and vollyball events are held. Athletic students also train there too.</p>
-     <button class=" btn btn-primary" id="getdirections"> click here to find directions to locations</button>
+    
     <!-- Connect to your script file here -->
      <script src = "./js/script.js"></script>
 </body>
 </html>
-<!-- for the html pages I used header 1 and 2 to give a title in making distinguised sections for the campus life super app. 
- For each html page their are naviagation links that take you for each page with the paragraph and anchor tags connecting each one.
-  Below header 3 their is a more smaller subheader that gives more specific details on info needed.  For html I also use the src and image function and made sure the file name matches the the code being written. -->
-  
-  <!-- There are a few functions I used to create the search bar. The constant function plus the get element by Id give it a identitiy for javascript to realize in creation of a searchbar. 
-   Add event listeners are added to give the function the searchbutton a call to respond to so everything renders and works properly and console log confirms it. 
-   -->
-   <!-- I am doing a weather API in javascript using fech that calls the response to the API url that is used. Right now it is incomplete. Async const and await are in use but not done with its purpose. -->
-   
-   <!-- For Css I used a rule (body) that set the background to aquamarine. I used a rule (image) to make the width 50 and the margins auto. I also made the enitre body centered using (body) rule-->
+<footer> <P>Website: campus-life-super-app </p>
+         <P>copyright: &copy; Campus Life super app 2026</P>
+        <p> Info: goes over Campus Maps for third page</p>
+</footer>

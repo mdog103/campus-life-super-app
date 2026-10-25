@@ -7,3 +7,11 @@ img {
 }
 
 body{text-align: center;}
+ .navbar{display: flex; flex-direction: row; gap: 20px; justify-content: center;}
+ 
+ .p{max-width: 90%; 
+margin:auto}
+
+@media screen  and ( max-width: 600px)
+{
+.p{max-width: 600px} }
